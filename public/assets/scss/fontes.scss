@@ -1,0 +1,19 @@
+@import "./user_mixins.scss";
+// aqui você pode importar a fonte que você achar melhor
+@import url("https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap");
+
+
+// Declaração da fonte para inserção no font-family
+$add-font: "Ropa Sans";
+
+// Condição para usar a nova fonte, se for true aplica se não aplicamos a fonte padrão da Soulcode (Manrope)
+$userFont: true;
+
+
+body {
+    @include setFont($userFont, $add-font);
+}
+
+* {
+    @include setFont($userFont, $add-font);
+}

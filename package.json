@@ -1,0 +1,20 @@
+{
+  "name": "frontend-designsystem",
+  "version": "1.0.0",
+  "description": "Versão de bootstrap especifico soulcode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch public/assets/scss/soulcodeBootstrap.scss:public/assets/css/soulcodeAcademy.css ",
+    "sass-prod": "sass  public/assets/scss/soulcodeBootstrap.scss:public/assets/css/soulcodeAcademy.min.css  --style compressed"
+  },
+  "keywords": [
+    "bootstrap",
+    "soulcode"
+  ],
+  "author": "soulcodeacademy",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.70.0"
+  }
+}

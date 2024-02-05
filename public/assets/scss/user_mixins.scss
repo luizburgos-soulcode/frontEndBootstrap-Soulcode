@@ -1,0 +1,10 @@
+@import "./bootstrap/variables";
+
+
+@mixin setFont($userFont: false, $add-font: "Ropa sans") {
+    @if ($userFont== true) {
+        font-family: $add-font, $font-family-sans-serif;
+    } @else {
+        font-family: $font-family-sans-serif;
+    }
+}
